@@ -1,0 +1,152 @@
+:root{
+  --background-color:#24053E;
+  --btn-color:#44FFA1;
+  --txtline-color:#44FFA1;
+  --txt-color:#24053E;
+  --bg2-color:#FCF8FF;
+}
+
+*,
+::before,
+::after{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family:"manrope",sans-serif ;
+}
+
+.wrapper{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.apply{
+  font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 180%;
+  
+}
+nav ul{
+  list-style: none;
+}
+
+header{
+  background-color: var(--background-color);
+  color: white;
+}
+
+.green-underline{
+  text-decoration: underline;
+  text-decoration-color: var(--btn-color);
+}
+.hero-section{
+  align-content: center;
+  text-align: center;
+}
+
+
+h1{
+  font-family: "Fraunces 144pt";
+  font-style: normal;
+  font-size: 80px;
+}
+
+button{
+  background-color: var(--btn-color);
+  padding:12px 32px 12px 32px;
+  text-decoration: none;
+  font-family: "manrope";
+  font-size: 18px;
+  font-weight: 700;
+  color: #24053E;
+  border: none;
+}
+
+.benefits{
+  background-color: var(--bg2-color);
+}
+
+.the-solutions{
+  padding-top: 50px;
+  display: flex;
+  text-align: center;
+  padding-bottom: 144px;
+}
+
+.solution{
+  max-width: 352px;
+  max-height: 306px;
+  margin-right: 32px;
+  
+}
+
+.founder-info{
+  display: flex;
+ margin-top: 112px;
+
+}
+
+.number{
+ font-family: "Fraunces 144pt";
+ font-style: normal;
+ font-size: 24px;
+ line-height: 40px;
+ background-color: green;
+ margin-left: 148px;
+ margin-right: 148px;
+ width: 56px; 
+ height: 56px; 
+ color: var(--txt-color);
+ border-radius: 50%; 
+ background-color: transparent; 
+ border: 1px solid var(--txt-color); 
+ padding-top:8px;
+ padding-bottom: 8px;
+}
+
+.soln-header{
+font-family: 'Fraunces 144pt';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 120%;
+color: var(--txt-color);
+}
+
+p{
+font-family: "Manrope";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 180%;
+}
+
+.about-founder{
+  color: white;
+  background-color: var(--background-color);
+  max-width: 730px;
+  max-height: 411px;
+  padding: 64px;
+  margin-top: 168px;
+  margin-left: -100px;
+}
+
+footer{
+  align-items: center;
+  text-align: center;
+  padding:112px;
+}
+
+.social-icons{
+  margin-top: 30px;
+}
